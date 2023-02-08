@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    padding:0px;
+    letter-spacing: 1px;
+
+}
+
+#head01{
+    display: flex;
+}
+
+header div h1{
+    margin-top: 0.7rem;
+    margin-left:0.3rem ;
+}
+header div img{
+    margin: 0.4rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+ 
+#head02{
+    margin-top: 1.5rem;
+}
+#head02 a{
+    margin: 0.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+#head03{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+#head03 a{
+    text-decoration: none;
+    color: white;
+    margin: 0.5rem;
+    border: solid 2px white;
+    padding: 7px;
+    border-radius: 8px 8px 8px;
+}
+
+#head02 a:hover{
+    color:rgb(128, 0, 128);
+    transition: 1s;
+}
+
+#head03 a:hover{
+    color:white;
+    background-color: rgb(128, 0, 128);
+    transition: 1s;
+}
+
+#sec01{
+    width: 100%;
+    color: white;
+    background-color:rgb(102, 0, 102);
+    height: 80px;
+}
+#sec01 p{
+    text-align: center;
+    padding-top: 1.7rem;
+}
+
+section{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:0.9rem; 
+    margin-top:4rem ;
+    margin-left: 8rem;
+    margin-right: 8rem;
+
+}
+.images{
+    border: solid 1px black;
+}
+
+.images:hover{
+    box-shadow: 5px 5px 5px;
+    transition: 0.6s;
+}
+
+main{
+    background-image: url("images.jfif");
+    height: 300px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main div{
+    color:white;
+    text-align: center;
+    padding-top: 1.2rem;
+}
+footer{
+    background-color: black;
+    margin-top: -1.5rem;
+    height: 200px;
+    margin-left: -20rem;
+    display: flex;
+    justify-content: space-between;
+}
+#left ul, #mid ul, #right ul {
+    list-style: none;
+    color: white;
+
+}
+#media{
+    margin-top: 2rem;
+    display: flex;
+    gap:5px;
+    margin-bottom: 2rem;
+}
